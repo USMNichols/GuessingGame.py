@@ -28,6 +28,10 @@ def main():
     while again.lower() == "yes":
         limit =(int(input(f"Enter the limit:")))
         Game_Play(limit)
+        again = input("Would you like to play again yes/no\n")
+        print()
+    print("bye")
+
 __name__ == "__main__"
 main()
 
